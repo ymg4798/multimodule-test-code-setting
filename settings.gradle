@@ -1,0 +1,4 @@
+rootProject.name = 'sellyourunhappiness'
+include 'sellyourunhappiness-api'
+include 'sellyourunhappiness-core'
+
