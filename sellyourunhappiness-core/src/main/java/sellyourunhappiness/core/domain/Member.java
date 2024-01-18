@@ -34,6 +34,16 @@ public class Member {
     public static Member create(String name, String nickname, MemberType grade) {
         return new Member(name, nickname, grade);
     }
+
+    @Override
+    public String toString() {
+        return "Member{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", nickname='" + nickname + '\'' +
+                ", grade=" + grade +
+                '}';
+    }
 }
 
 

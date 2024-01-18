@@ -1,0 +1,25 @@
+= Sample API 문서
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels:2
+
+=== Request
+
+include::{snippets}/member-post/request-fields.adoc[]
+
+=== Request Example
+
+include::{snippets}/member-post/request-body.adoc[]
+
+=== Response
+
+include::{snippets}/member-post/response-fields.adoc[]
+
+=== Response Example
+
+include::{snippets}/member-post/response-body.adoc[]
+
+
+
