@@ -30,6 +30,10 @@ public class MemberService {
         return memberRepository.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException("not exist. id : " + id));
     }
+
+    public Member findByIdQueryDsl(Long id) {
+        return memberRepository.getMember(id);
+    }
 }
 
 
